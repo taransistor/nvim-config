@@ -11,6 +11,12 @@ return {
 				view_options = {
 					show_hidden = false,
 				},
+        columns = {
+          "icon",
+          "permissions",
+          "size",
+          "mtime",
+        },
 			})
 		end,
 	},
