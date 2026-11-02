@@ -19,8 +19,6 @@ return {
       vim.diagnostic.config({
         virtual_text = {
           prefix = "●",
-          spacing = 2,
-          source = "if_many",
         },
         signs = true,
         underline = true,

@@ -1,9 +1,6 @@
 -- Leader key
 vim.g.mapleader = " "
 
--- File explorer
-vim.keymap.set("n", "-", "<cmd>Oil<CR>", { desc = "Open file explorer" })
-
 -- Move selected lines
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
